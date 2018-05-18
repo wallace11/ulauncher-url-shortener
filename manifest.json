@@ -1,0 +1,19 @@
+{
+    "manifest_version": "2",
+    "api_version": "1",
+    "name": "URL Shortener",
+    "description": "Shortens your URLs ;)",
+    "developer_name": "wallace",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 1
+    },
+    "preferences": [
+        {
+            "id": "shortener",
+            "type": "keyword",
+            "name": "Shortener",
+            "default_value": "url"
+        }
+    ]
+}
