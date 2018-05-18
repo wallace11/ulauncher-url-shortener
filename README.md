@@ -2,7 +2,7 @@
 
 ### Requirements
 - Python 2.7.9+
-- python-requests (pip install requests)
+- python-requests (`pip install requests`)
 
 ### Credits
 - [Slyme](https://5ly.me) - For their great open API
