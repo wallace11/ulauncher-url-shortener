@@ -5,9 +5,10 @@
 - python-requests (`pip install requests`)
 
 ### Changes
+- 2018-10-11 Change service provider ([is.gd](https://is.gd))
 - 2018-06-03 Add a custom domain option
 - 2018-05-18 First Release
 
 ### Credits
-- [Slyme](https://5ly.me) - For their great open API
+- [is.gd](https://is.gd) - For their great open API
 - [FxEmojis](https://github.com/mozilla/fxemoji) - For the extension icon
