@@ -34,7 +34,7 @@ class KeywordQueryEventListener(EventListener):
             url = query[0] if match('\w+://', query[0]) else 'http://' + query[0]
             custom = query[1] if len(query) > 1 else None
 
-            if not (5 <= len(custom) <= 30 and custom.replace("_", "").isalnum()):
+            if custom and not (5 <= len(custom) <= 30 and custom.replace("_", "").isalnum()):
                 name = 'Invalid custom name'
                 description = 'Must be 5-30 characters long and contain only english characters.'
                 on_enter = HideWindowAction()
