@@ -2,7 +2,7 @@
 
 ### Requirements
 - Python 2.7.9+
-- python-requests (`pip install requests`)
+- python-requests (`pip install requests / pip2 install requests`)
 
 ### Changes
 - 2018-10-11 Change service provider ([is.gd](https://is.gd))
