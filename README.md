@@ -1,10 +1,13 @@
 ![Extension in action](https://github.com/wallace11/ulauncher-url-shortener/blob/master/demo.png)
 
 ### Requirements
-- Python 2.7.9+
-- python-requests (`pip install requests / pip2 install requests`)
+- Python 3+
+- Ulauncher V5+
+- python-requests (`pip3 install requests`)
 
 ### Changes
+
+- 2019-08-10 Add support for Python 3 and Ulauncher V5
 - 2018-10-11 Change service provider ([is.gd](https://is.gd))
 - 2018-06-03 Add a custom domain option
 - 2018-05-18 First Release
